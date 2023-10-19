@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');body {
+    font-family: 'Josefin sans', cursive;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    overflow-x:hidden ;
+
+    /*bg-color*/
+    background-color: black;
+
+    /*bg image*/
+    background-image: url();
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /*posisi element ditengah*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    /*set the container style*/
+ .container {
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    padding: 50px 0px 10px 0px ;
+
+    /*flexbox*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    /*profile image*/
+    .img-container img{
+      width: 150px;
+      border-radius: 50%;
+    }
+    /*title*/
+    .title-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 40px;
+
+      /*warna text head*/
+      color: rgb(245, 239, 230);
+    }
+    /*link item element*/
+    .link-item {
+      width: 100%;
+      height: 56px;
+      margin: 16px;
+      border-radius: 20px;
+
+      /*text color n bg color*/
+      color: rgb(232, 223, 202);
+      text-decoration: none;
+      background-color: rgb(174, 189, 202);
+
+      /*tata letak*/
+      display: flex;
+      justify-content: space-between;
+    }
+    /*set the icon*/
+    .icon {
+      margin: 3px 8px;
+      width: 44px;
+      height: 44px;
+    }
+
+    /*tengah*/
+    .link-item p {
+      margin-right: 60px;
+    }
+
+   /*hover*/
+   .link-item:hover {
+      transition: cubic-bezier(.07, 1.41, .82, 1.41)0.2s;
+      transform: scale(1.02);
+
+      background-color:rgb(120, 149, 178);
+   }
+  
+ }
+
+
